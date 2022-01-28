@@ -7,6 +7,9 @@ select *from collectionstracks;
 select *from singersalbums;
 select *from singersgenres;
 
+update tracks
+set title = 'The Lady in my Life'
+where id = 3;
 
 delete from singers
 where id >= 0;
